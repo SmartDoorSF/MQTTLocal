@@ -9,3 +9,9 @@ on Edison:
 ```bash
   opkg install util-linux-dev
 ```
+
+## Mosquitto 
+
+### Password setup
+
+mosquitto_password -c /etc/mosquitto/accesslist.text username
